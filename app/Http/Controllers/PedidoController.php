@@ -109,7 +109,7 @@ class PedidoController extends Controller
     }
 
 
-    function searchPedido($id)
+    function search($id)
     {
 
         return Pedido::where('id_usuario',$id)->get();
