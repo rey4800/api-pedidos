@@ -82,4 +82,13 @@ class DetallePedidoController extends Controller
     {
         //
     }
+
+
+    function search($id)
+    {
+
+        return DetallePedido::where('id_pedido',$id)->get();
+
+
+    }
 }

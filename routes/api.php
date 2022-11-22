@@ -25,6 +25,7 @@ Route::resource('pedido',App\Http\Controllers\PedidoController::class);
 Route::resource('detallepedido',App\Http\Controllers\DetallePedidoController::class);
 Route::resource('categorias',App\Http\Controllers\CategoriaController::class);
 Route::get('pedido/search/{id}',[App\Http\Controllers\PedidoController::class,'search']);
+Route::get('detallepedido/search/{id}',[App\Http\Controllers\DetallePedidoController::class,'search']);
 
 /*Route::group(['prefix'=>'api', 'as' => "api."],function(){
 
