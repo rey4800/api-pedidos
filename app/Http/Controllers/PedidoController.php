@@ -31,6 +31,7 @@ class PedidoController extends Controller
 
     /**
      * Store a newly created resource in storage.
+     * wsw
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
