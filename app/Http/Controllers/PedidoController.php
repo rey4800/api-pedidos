@@ -71,7 +71,8 @@ class PedidoController extends Controller
      */
     public function show($id)
     {
-        //
+        $pedido = Pedido::find($id);
+        return $pedido;
     }
 
     /**
