@@ -63,4 +63,12 @@ class CategoriaController extends Controller
     {
         //
     }
+
+    function filtro($filtro)
+    {
+
+        return Category::where('nombre',$filtro)->get();
+
+
+    }
 }
