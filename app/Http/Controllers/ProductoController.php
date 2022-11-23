@@ -66,5 +66,14 @@ class ProductoController extends Controller
     {
         //
     }
+
+
+    function filtro($filtro)
+    {
+
+        return Combo::where('id_categories',$filtro)->get();
+
+
+    }
     
 }
